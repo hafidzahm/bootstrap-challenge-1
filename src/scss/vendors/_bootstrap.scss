@@ -1,9 +1,10 @@
 // Using built-in modules
 @use 'sass:map';
 // Custom modules
+
 @use '../vendors-extensions/bootstrap/components/buttons' as btn;
 @use '../vendors-extensions/bootstrap/variables/colors' as color;
- 
+// kita akan melakukan override nilai dari variabel-variabel SCSS yang berkaitan dengan komponen button
 
 // ==================================================
 // Bootstrap
